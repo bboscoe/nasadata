@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- bring in jquery -->
+
     <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
     <!-- include a script to put in the client code -->
     <script src="javascripts/client.js"></script>
@@ -18,9 +19,9 @@
   </head>
   <body>
     <!-- Drastically reduce the clutter in the jekyll generated static site for purposes of seeing the return data! -->
-    <div>Show contents of API call here:</div>
+
 
     <!-- return data will go here -->
-    <pre></pre>
+    <pre> <div id="here_table"></div></pre>
   </body>
 </html>
