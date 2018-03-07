@@ -6,6 +6,7 @@ $.ajax({
   success: function(data) {
     for(let i=0;i<data.length;i++){
       $("pre").append( '<tr><td>' + data[i].category + '</td></tr>' );
+      console.log(data);
       //.text(JSON.stringify(data, null, "\t"));
     }
   },
