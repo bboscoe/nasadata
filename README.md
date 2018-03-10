@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        
+
 
     <title>Front-end for Outgassing</title>
 
@@ -21,7 +21,7 @@
     <script src="javascripts/client.js"></script>
 
   </head>
-  <body>
+  <body text="white">
     <!-- Drastically reduce the clutter in the jekyll generated static site for purposes of seeing the return data! -->
 
 
