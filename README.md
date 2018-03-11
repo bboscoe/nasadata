@@ -16,7 +16,7 @@
 
     <!-- bring in jquery -->
 
-    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- include a script to put in the client code -->
     <script src="javascripts/client.js"></script>
 
