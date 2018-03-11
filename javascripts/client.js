@@ -2,6 +2,7 @@
 
 
 $('#foo').on('click', function () {
+  console.log("in function");
   // everything happens inside of here, when the button is clicked
   let j=0;
   $.ajax({
