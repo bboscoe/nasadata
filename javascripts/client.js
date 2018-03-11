@@ -13,12 +13,7 @@ $.ajax({
       console.log(data[i]);
       //.text(JSON.stringify(data, null, "\t"));
     }
-  },
-  error: function(msg) {
-    //todo: handle error gracefully
-    //https://soda.demo.socrata.com/resource/earthquakes.json?$limit=5&$offset=0
-  }
+
+);
 
 });
-
-)};
