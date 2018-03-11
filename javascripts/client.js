@@ -14,11 +14,11 @@ $(document).ready(function() {
         $("pre").append( '<tr><td>' + data[i].category +' '+ data[i].sample_material+ '</td></tr>' );
         console.log(data[i]);
 
-      }
+      });
     }
 
 
   });
 
-});
+
 });
