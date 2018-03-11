@@ -1,7 +1,7 @@
 
 
 
-$('#foo').on('click', function () {
+$('#foo').click(function () {
   console.log("in function");
   // everything happens inside of here, when the button is clicked
   let j=0;
