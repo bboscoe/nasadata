@@ -6,7 +6,7 @@ $('#foo').click(function () {
   // everything happens inside of here, when the button is clicked
   let j=0;
   $.ajax({
-    url: "https://data.nasa.gov/resource/gymh-eyc2.json?$limit=5&$offset=0",
+    url: "https://data.nasa.gov/resource/gymh-eyc2.json",
     data: {},
     success: function(data) {
       for(let i=0;i<data.length;i++){
