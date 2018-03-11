@@ -1,6 +1,6 @@
 
 
-
+$(document).ready(function() {
 $('#foo').click(function () {
   console.log("in function");
   // everything happens inside of here, when the button is clicked
@@ -18,4 +18,5 @@ $('#foo').click(function () {
 
   });
 
+});
 });
