@@ -1,7 +1,7 @@
 
 
 $.ajax({
-  url: "https://data.nasa.gov/resource/gymh-eyc2.json",
+  url: "https://data.nasa.gov/resource/gymh-eyc2.json?$limit=5&$offset=0",
   data: {},
   success: function(data) {
     for(let i=0;i<data.length;i++){
@@ -12,5 +12,6 @@ $.ajax({
   },
   error: function(msg) {
     //todo: handle error gracefully
+    //https://soda.demo.socrata.com/resource/earthquakes.json?$limit=5&$offset=0
   }
 });
