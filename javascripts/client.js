@@ -12,9 +12,11 @@ $(document).ready(function() {
 
       if(j<data.length){
       $('#foo').click(function () {
-      for(let i=j;i<5;i++){
-        $("pre").append( '<tr><td>' + data[i].category +' '+ data[i].sample_material+ '</td></tr>' );
-        console.log(data[i]);
+      for(let i=0;i<5;i++){
+        $("pre").append( '<tr><td>' + data[j].category +' '+ data[j].sample_material+ '</td></tr>' );
+        console.log(data[j]);
+        j++;
+        return j;
                                     }
                                   })
                                 }
