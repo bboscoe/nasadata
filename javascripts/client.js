@@ -1,7 +1,7 @@
 
 
 
-    $('button').on('click', function () {
+$('button').on('click', function () {
 // everything happens inside of here, when the button is clicked
 let j=0;
 $.ajax({
@@ -20,3 +20,4 @@ $.ajax({
   }
 
 });
+};
