@@ -23,7 +23,7 @@
   </head>
   <body >
     <!-- Drastically reduce the clutter in the jekyll generated static site for purposes of seeing the return data! -->
-  <button onclick="button();">Click</button>
+  <button id="foo">Click</button>
 
 
     <!-- return data will go here -->
