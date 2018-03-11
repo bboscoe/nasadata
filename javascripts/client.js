@@ -9,7 +9,10 @@ $.ajax({
       console.log(data[i]);
       //.text(JSON.stringify(data, null, "\t"));
     }
-    document.write("<a href='https://data.nasa.gov/resource/gymh-eyc2.json?$limit=5&$offset=5'> next</a>");
+    $('button').on('click', function () {
+// everything happens inside of here, when the button is clicked
+});
+    //document.write("<a href='https://data.nasa.gov/resource/gymh-eyc2.json?$limit=5&$offset=5'> next</a>");
   },
   error: function(msg) {
     //todo: handle error gracefully
