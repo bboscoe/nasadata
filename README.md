@@ -24,7 +24,7 @@
   <body >
     <!-- Drastically reduce the clutter in the jekyll generated static site for purposes of seeing the return data! -->
 
-<button type="button">Hello</button>
+
     <!-- return data will go here -->
     <pre> <div id="here_table"></div></pre>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
