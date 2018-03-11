@@ -12,7 +12,7 @@ $.ajax({
       $("pre").append( '<tr><td>' + data[i].category +' '+ data[i].sample_material+ '</td></tr>' );
       console.log(data[i]);
       //.text(JSON.stringify(data, null, "\t"));
-    }
+    };
 
 );
 
